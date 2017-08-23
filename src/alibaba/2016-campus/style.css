@@ -1,0 +1,48 @@
+.header{
+  overflow: hidden;
+  margin: 5px;
+  border: 1px solid #000;
+  height: 70px;
+}
+.main{
+  margin: 5px;
+  overflow: hidden;
+}
+.footer{
+  text-align: center;
+  margin: 5px;
+  border: 1px solid #000;
+}
+.logo{
+  width: 50px;
+  height: 50px;
+  float: left;
+  margin: 10px;
+  border: 1px solid #000;
+}
+.username{
+  border: 1px solid #000;
+  float: right;
+  width: 140px;
+  height: 20px;
+  margin-top: 40px;
+  margin-right: 10px;
+  text-align: right;
+}
+.column{
+  border: 1px solid #000;
+}
+.left{
+  float: left;
+  width: 100%;
+}
+.right{
+  float: left;
+  width: 200px;
+  margin-left: -204px;
+}
+.real{
+  margin-right: 210px;
+  border: 1px solid blue;
+  height: 300px;
+}

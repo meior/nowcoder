@@ -1,0 +1,47 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "taskName": "node",
+      "type": "shell",
+      "command": "node",
+      "windows": {
+        "command": "node"
+      },
+      "args": [
+        "${file}"
+      ],
+      "problemMatcher": [],
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": true,
+        "panel": "shared"
+      },
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "taskName": "browser",
+      "type": "shell",
+      "command": "browser",
+      "windows": {
+        "command": "explorer.exe"
+      },
+      "args": [
+        "${file}"
+      ],
+      "presentation": {
+        "echo": true,
+        "reveal": "never",
+        "focus": false,
+        "panel": "shared"
+      },
+      "problemMatcher": []
+    }
+  ]
+}
