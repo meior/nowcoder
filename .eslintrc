@@ -3,7 +3,8 @@
   "rules": {
     "no-console": "off",
     "no-plusplus": "off",
-    "no-mixed-operators": "off"
+    "no-mixed-operators": "off",
+	"linebreak-style": "off"
   },
   "globals": {
     "describe": true,
